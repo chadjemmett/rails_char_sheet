@@ -1,0 +1,39 @@
+<center>
+<h1>Random Character Stats</h1>
+<% x = HomeController::Character.new %>
+<%= "Race: #{x.race} Class: #{x.class}" %><br />
+<table border="1">
+<tr>
+<td><%= "Str:" %></td><td> <%= x.stats_array[0][0] %>  </td>
+<td><%= "Mod:" %></td><td> <%= x.stats_array[0][1] %>  </td>
+</tr>
+<tr>
+<td><%= "Dex:" %></td><td> <%= x.stats_array[1][0] %>  </td>
+<td><%= "Mod:" %></td><td> <%= x.stats_array[1][1] %>  </td>
+
+</tr>
+
+<tr>
+<td><%= "Con:" %></td><td> <%= x.stats_array[2][0] %>  </td>
+<td><%= "Mod:" %></td><td> <%= x.stats_array[2][1] %>  </td>
+
+</tr>
+
+<tr>
+<td><%= "Int:" %></td><td> <%= x.stats_array[3][0] %>  </td>
+<td><%= "Mod:" %></td><td> <%= x.stats_array[2][1] %>  </td>
+
+</tr> 
+
+<tr>
+<td><%= "Wis:" %></td><td> <%= x.stats_array[4][0] %>  </td>
+<td><%= "Mod:" %></td><td> <%= x.stats_array[4][1] %>  </td>
+
+</tr> 
+
+<tr>
+<td><%= "Cha:" %></td><td> <%= x.stats_array[5][0] %>  </td>
+<td><%= "Mod:" %></td><td> <%= x.stats_array[5][1] %>  </td> 
+</tr> 
+</center> 
+
