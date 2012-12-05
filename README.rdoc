@@ -1,4 +1,14 @@
+This is a simple app that randomly generates the stats for a Dungeons and Dragons character.
+In D&D you generate stats by rolling three six-sided dice and adding the result.
+You do this for each stat. Strength(STR), Dexterity(DEX), Constitution(CON), Intelligence(INT), Wisdom(WIS) and Charisma(CHA).
+After the stats are rolled. The highest stat determines the Class of the character.
+There are four classes in this app. Fighter, Thief, Cleric and Magic User.
+Each stat has a modifier. Each modifier is determined by the manin stat. Modifiers are based on a simple formula.
+(STAT - 10)/2
+Race is chosen by random.
 == Welcome to Rails
+
+
 
 Rails is a web-application framework that includes everything needed to create
 database-backed web applications according to the Model-View-Control pattern.
